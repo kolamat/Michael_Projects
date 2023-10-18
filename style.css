@@ -357,9 +357,7 @@ u {
 .sec6 {
   display: flex;
   flex-direction: column;
-  align-items: center;
   background: var(--bg-color2);
-  /* padding: 0 0 20% 0; */
 }
 
 .star3 {
@@ -413,18 +411,38 @@ u {
   border-radius: 10px 0 0 0;
 }
 
-.sec6-card {
-  display: grid;
-  grid-template-columns: 500px 500px;
-  background: var(--bg-color1);
-  width: 100%;
-  align-items: center;
-}
-
 .cards2 {
   display: grid;
   grid-template-columns: 500px 500px;
   gap: 15px;
   align-self: center;
   flex-wrap: wrap;
+}
+
+.cardA {
+  display: flex;
+  flex-direction: column;
+}
+
+.h-word3 {
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.sec7 {
+  display: flex;
+  color: #000;
+  justify-content: space-between;
+  text-wrap: wrap;
+  background: var(--bg-color2);
+}
+
+.user {
+  background: var(--bg-color1);
+  font-weight: 200;
+  font-size: ;
+}
+
+.ul {
+  font-weight: 600;
 }
