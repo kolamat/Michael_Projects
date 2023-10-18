@@ -64,6 +64,7 @@ nav {
   padding: .7rem;
   border-radius: .3rem;
   margin: 0 5px 0 0;
+  cursor: pointer;
 }
 
 
@@ -162,17 +163,41 @@ span {
   font-size: 1rem;
   border-radius: .3rem;
   margin: 38px 0 38px 0;
+  cursor: pointer;
 }
 
 .sec2 {
   width: 100%;
-  background: var(--bg-color2);
+  background: var(--bg-color1);
 }
 
 .sec3 {
   display: flex;
   width: 100%;
-  background: var(--bg-color2);
+  background: var(--bg-color1);
+}
+
+
+.blue1 {
+  background: var(--text-color2);
+  width: 50%;
+  height: 6rem;
+  border-radius: 0 5rem 0 0;
+}
+
+.blue2 {
+  background: var(--text-color2);
+  width: 50%;
+  height: 6rem;
+  border-radius: 5rem 0 0 0;
+}
+
+.sec4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--text-color2);
+  padding: 0 0 20% 0;
 }
 
 .star2 {
@@ -220,27 +245,6 @@ span {
 .v-star8 {
   background: var(--text-color2);
   border-radius: 10px 0 0 0;
-}
-
-.blue1 {
-  background: var(--text-color2);
-  width: 50%;
-  height: 6rem;
-  border-radius: 0 4rem 0 0;
-}
-
-.blue2 {
-  background: var(--text-color2);
-  width: 50%;
-  height: 6rem;
-  border-radius: 4rem 0 0 0;
-}
-
-.sec4 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: var(--text-color2);
 }
 
 .span2 {
@@ -293,7 +297,7 @@ u {
 .card1 {
   display: grid;
   background: var(--card-color1);
-  padding: 13px;
+  padding: 18px;
   border-radius: .7rem;
   width: 100%;
 }
@@ -301,7 +305,7 @@ u {
 .card2 {
   display: grid;
   background: var(--card-color1);
-  padding: 13px;
+  padding: 18px;
   border-radius: .7rem;
   width: 100%;
 }
@@ -316,4 +320,94 @@ u {
 .c-text1 {
   color: var(--bg-color1);
   font-size: 10px;
+}
+
+.card-img1 {
+  margin: 10px 8px 8px 8px;
+  padding: 10px;
+}
+
+.card-img2 {
+  margin: 10px 8px 8px 8px;
+  padding: 20px;
+}
+
+.sec5 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: var(--text-color2);
+}
+
+.white1 {
+  background: var(--bg-color1);
+  width: 50%;
+  height: 6rem;
+  border-radius: 0 5rem 0 0;
+}
+
+.white2 {
+  background: var(--bg-color1);
+  width: 50%;
+  height: 6rem;
+  border-radius: 5rem 0 0 0;
+}
+
+.star3 {
+  display: grid;
+  grid-template-columns: 11px 11px;
+  width: 20px;
+  background: #e11515;
+}
+
+.span4 {
+  color: #e11515;
+}
+
+.r-star1 {
+  background: var(--bg-color1);
+  border-radius: 0 0 10px 0;
+}
+
+.r-star2 {
+  background: var(--bg-color1);
+  border-radius: 0 0 0 10px;
+}
+
+.r-star3 {
+  background: var(--bg-color1);
+  border-radius: 0 10px 0 0;
+}
+
+.r-star4 {
+  background: var(--bg-color1);
+  border-radius: 10px 0 0 0;
+}
+
+.r-star5 {
+  background: var(--bg-color1);
+  border-radius: 0 0 10px 0;
+}
+
+.r-star6 {
+  background: var(--bg-color1);
+  border-radius: 0 0 0 10px;
+}
+
+.r-star7 {
+  background: var(--bg-color1);
+  border-radius: 0 10px 0 0;
+}
+
+.r-star8 {
+  background: var(--bg-color1);
+  border-radius: 10px 0 0 0;
+}
+
+.s6-card {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  background: var(--bg-color1);
+  width: 100%;
+  align-items: center;
 }
