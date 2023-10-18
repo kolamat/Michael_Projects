@@ -11,7 +11,8 @@
 
 :root {
   --bg-color1: #FFFFFF;
-  --bg-color2: #faeeff;
+  --bg-color2: #F3F1FF;
+  ;
   --text-color1: #0DAC98;
   --text-color2: #5E44FF;
   --text-color3: #83F3DE;
@@ -340,14 +341,14 @@ u {
 }
 
 .white1 {
-  background: var(--bg-color1);
+  background: #F3F1FF;
   width: 50%;
   height: 6rem;
   border-radius: 0 5rem 0 0;
 }
 
 .white2 {
-  background: var(--bg-color1);
+  background: #F3F1FF;
   width: 50%;
   height: 6rem;
   border-radius: 5rem 0 0 0;
@@ -357,8 +358,8 @@ u {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: var(--text-color2);
-  padding: 0 0 20% 0;
+  background: var(--bg-color2);
+  /* padding: 0 0 20% 0; */
 }
 
 .star3 {
@@ -414,7 +415,7 @@ u {
 
 .sec6-card {
   display: flex;
-  flex-direction: ;
+  flex-direction: column;
   background: var(--bg-color1);
   width: 100%;
   align-items: center;
