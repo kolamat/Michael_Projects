@@ -414,9 +414,17 @@ u {
 }
 
 .sec6-card {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 500px 500px;
   background: var(--bg-color1);
   width: 100%;
   align-items: center;
+}
+
+.cards2 {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  gap: 15px;
+  align-self: center;
+  flex-wrap: wrap;
 }
