@@ -41,6 +41,13 @@ body {
   padding: .6rem .4rem 0 .4rem;
 }
 
+.header.sticky {
+  /* border-top: .1rem solid var(rgb(86, 86, 186), rgb(32, 122, 118), rgb(83, 36, 98)); */
+  border-top: .1rem solid var(--card-color1);
+  border-bottom: .1rem solid var(--card-color1);
+  border-radius: .2rem;
+}
+
 .logo {
   display: flex;
   justify-content: space-between;
@@ -570,4 +577,19 @@ u {
   font-weight: 100;
   margin-top: 10px;
   ;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
 }
