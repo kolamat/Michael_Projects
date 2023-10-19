@@ -463,7 +463,7 @@ u {
   ;
 }
 
-.sec8 {
+.sec10 {
   display: flex;
   flex-direction: column;
   background: var(--bg-color2);
