@@ -24,7 +24,7 @@
 body {
   padding-top: 66px;
   background: #000;
-  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Poppins', sans-serif;
 }
 
 .header {
@@ -605,7 +605,7 @@ u {
   flex-direction: column;
   align-items: center;
   font-size: 50px;
-  /* grid-template-columns: 250px 250px 250px; */
+  padding: 10px 0 20px 0;
   background-color: #E9E5FF;
 }
 
@@ -619,6 +619,7 @@ u {
   width: 40px;
   background: #5E44FF;
   height: 60px;
+  margin: 0 8px 0 8px;
 }
 
 .d-star5 {
@@ -643,18 +644,41 @@ u {
 
 .reduce {
   display: flex;
-  width: 80%;
-  gap: 15px;
+  justify-content: space-between;
+  width: 69%;
+  gap: 55px;
+  padding: 0 0 70px 0;
 }
 
 .reburn {
+  display: grid;
   background: var(--bg-color1);
   border-radius: 11px;
-  /* margin-top: 60px;
-  padding: 15px 9px 15px 9px; */
-  width: 100%;
+  margin-top: 60px;
+  padding: 30px;
+  width: 32%;
+  text-align: left;
 }
 
+strong {
+  font-size: 30px;
+}
+
+.sec11 small {
+  color: #000;
+}
+
+.c-text2 {
+  color: #4A5168;
+  font-size: 15px;
+  margin: 5px 0 5px 0;
+}
+
+.c-text3 {
+  color: #4A5168;
+  font-size: 10px;
+  margin: 5px 0 5px 0;
+}
 
 .sec12 {
   display: flex;
@@ -677,6 +701,17 @@ u {
   border-radius: 5rem 0 0 0;
 }
 
-/* .sec11 p small {
-  display: inline;
-} */
+
+
+
+
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 70%;
+  }
+
+  body {
+    padding-top: 60px;
+  }
+}
