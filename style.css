@@ -69,11 +69,17 @@ nav {
 
 .btn {
   background: #E9E5FF;
-  color: #5E44FF;
+  color: #735ff9;
   padding: .7rem;
   border-radius: .3rem;
   margin: 0 5px 0 0;
   cursor: pointer;
+}
+
+.btn:hover {
+  background: #735ff9;
+  color: var(--bg-color1);
+  transition: .8s ease-in-out;
 }
 
 
@@ -173,6 +179,12 @@ span {
   border-radius: .3rem;
   margin: 38px 0 38px 0;
   cursor: pointer;
+}
+
+.btn2:hover {
+  background: #E9E5FF;
+  color: #735ff9;
+  transition: .6s ease-in-out;
 }
 
 .sec2 {
@@ -710,6 +722,41 @@ strong {
   align-items: center;
   /* padding: 80px 17% 0 17%; */
 }
+
+.btn3 {
+  background: var(--text-color2);
+  color: var(--bg-color1);
+  padding: .7rem;
+  font-size: 1rem;
+  border-radius: .3rem;
+  margin: 38px 0 38px 0;
+  width: 25%;
+  cursor: pointer;
+}
+
+
+.btn3:hover {
+  background: #E9E5FF;
+  color: #5E44FF;
+  transition: .8s ease-in-out;
+}
+
+
+.sec14 {
+  display: grid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
