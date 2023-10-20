@@ -555,28 +555,28 @@ u {
   gap: 30px;
 }
 
-.user {
+/* .user {
   background: var(--bg-color1);
   border-radius: 11px;
   margin-top: 60px;
   padding: 19px 19px 15px 19px;
-}
+} */
 
-.ul {
+/* .ul {
   display: flex;
   justify-content: space-between;
   font-weight: 600;
   font-size: larger;
   margin-top: 6px;
-}
+} */
 
-.ol {
+/* .ol {
   display: flex;
   font-size: 15px;
   font-weight: 100;
   margin-top: 10px;
   ;
-}
+} */
 
 .sec10 {
   display: flex;
@@ -639,6 +639,20 @@ u {
 .d-star8 {
   background: #E9E5FF;
   border-radius: 40px 0 0 0;
+}
+
+.reduce {
+  display: flex;
+  width: 80%;
+  gap: 15px;
+}
+
+.reburn {
+  background: var(--bg-color1);
+  border-radius: 11px;
+  /* margin-top: 60px;
+  padding: 15px 9px 15px 9px; */
+  width: 100%;
 }
 
 
