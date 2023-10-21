@@ -74,6 +74,7 @@ nav {
   border-radius: .3rem;
   margin: 0 5px 0 0;
   cursor: pointer;
+  transition: .8s ease-in-out;
 }
 
 .btn:hover {
@@ -179,6 +180,7 @@ span {
   border-radius: .3rem;
   margin: 38px 0 38px 0;
   cursor: pointer;
+  transition: .6s ease-in-out;
 }
 
 .btn2:hover {
@@ -563,34 +565,10 @@ u {
 .sec9 {
   display: flex;
   padding: 28px 17% 7% 17%;
-  /* grid-template-columns: 350px 350px 350px; */
   color: #000;
   background: var(--bg-color2);
   gap: 30px;
 }
-
-/* .user {
-  background: var(--bg-color1);
-  border-radius: 11px;
-  margin-top: 60px;
-  padding: 19px 19px 15px 19px;
-} */
-
-/* .ul {
-  display: flex;
-  justify-content: space-between;
-  font-weight: 600;
-  font-size: larger;
-  margin-top: 6px;
-} */
-
-/* .ol {
-  display: flex;
-  font-size: 15px;
-  font-weight: 100;
-  margin-top: 10px;
-  ;
-} */
 
 .sec10 {
   display: flex;
@@ -720,7 +698,6 @@ strong {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* padding: 80px 17% 0 17%; */
 }
 
 .btn3 {
@@ -732,6 +709,7 @@ strong {
   margin: 38px 0 38px 0;
   width: 25%;
   cursor: pointer;
+  transition: .8s ease-in-out;
 }
 
 
@@ -746,7 +724,6 @@ strong {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  /* text-align: center; */
   align-content: center;
   background-color: var(--bg-color1);
 }
@@ -778,12 +755,6 @@ strong {
   font-weight: 100;
 }
 
-
-
-
-
-
-
 .FOOTER {
   display: flex;
   justify-content: space-between;
@@ -794,16 +765,10 @@ strong {
   word-spacing: 6px;
 }
 
-.com {
-  font-weight: 600;
-  margin: 10px 0 10px 0;
+div>p {
+  font-size: 10px;
+  margin: 10px 10px 10px 0;
 }
-
-.RECENT {
-  font-weight: 600;
-  margin: 10px 0 10px 0;
-}
-
 
 
 
