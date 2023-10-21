@@ -745,6 +745,7 @@ strong {
 .sec14 {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   /* text-align: center; */
   align-content: center;
   background-color: var(--bg-color1);
@@ -752,10 +753,30 @@ strong {
 
 .sec14-grid {
   display: grid;
-  /* width: 50%; */
+  text-align: left;
+  width: 50%;
+  padding: 60px;
+}
+
+.second-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 20px;
+  padding-top: 50px;
 }
 
 
+.span6 {
+  color: #000;
+  font-weight: 600;
+  display: block;
+  margin: 10px 0 10px 0;
+}
+
+.second-grid p {
+  font-size: 14px;
+  font-weight: 100;
+}
 
 
 
