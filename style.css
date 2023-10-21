@@ -784,6 +784,45 @@ strong {
 
 
 
+.FOOTER {
+  display: flex;
+  justify-content: space-between;
+  background: #121933;
+  color: var(--bg-color1);
+  padding: 6% 10% 10% 5%;
+  gap: 20%;
+  word-spacing: 6px;
+}
+
+.com {
+  font-weight: 600;
+  margin: 10px 0 10px 0;
+}
+
+.RECENT {
+  font-weight: 600;
+  margin: 10px 0 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
