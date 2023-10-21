@@ -23,7 +23,7 @@
 }
 
 body {
-  padding-top: 66px;
+  padding-top: 7%;
   background: #000;
   overflow-y: auto;
   font-family: 'Poppins', sans-serif;
@@ -40,7 +40,7 @@ body {
   flex-wrap: wrap;
   background: var(--bg-color1);
   width: 100%;
-  padding: .6rem .4rem 0 .4rem;
+  padding: 2rem 2rem 2rem 2rem;
 }
 
 .header.sticky {
@@ -788,6 +788,29 @@ div>p {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1201px) {
+  html {
+    font-size: 100%;
+  }
+
+  /* body {
+    padding-top: 60px;
+  } */
+}
 
 
 
