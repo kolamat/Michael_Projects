@@ -24,7 +24,7 @@
 
 body {
   padding-top: 7.5em;
-  background: #000;
+  background: var(--bg-color1);
   overflow-y: auto;
   font-family: 'Poppins', sans-serif;
 }
@@ -81,6 +81,10 @@ nav {
   background: #735ff9;
   color: var(--bg-color1);
   transition: .8s ease-in-out;
+}
+
+#menu-icon {
+  display: none;
 }
 
 
@@ -792,40 +796,18 @@ div>p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 1201px) {
-  html {
-    font-size: 100%;
-  }
-
-  /* body {
-    padding-top: 60px;
-  } */
-}
-
-
-
-
-
-
-
-
-
 @media (max-width: 1200px) {
   html {
     font-size: 70%;
   }
 
   body {
-    padding-top: 60px;
+    padding-top: 101px;
+  }
+}
+
+@media (max-width: 991px) {
+  body {
+    padding-top: 2rem 3%;
   }
 }
