@@ -807,6 +807,10 @@ div>p {
 }
 
 @media (max-width: 991px) {
+  html {
+    font-size: 50%;
+  }
+
   body {
     padding-top: 2rem 3%;
   }
