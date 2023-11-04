@@ -44,9 +44,9 @@ body {
 }
 
 .header.sticky {
-  border-top: .1rem solid var(--card-color1);
+  /* border-top: .1rem solid var(--card-color1); */
   border-bottom: .1rem solid var(--card-color1);
-  border-radius: .2rem;
+  /* border-radius: .2rem; */
 }
 
 .logo {
