@@ -25,6 +25,7 @@
 body {
   padding-top: 7.5em;
   background: var(--bg-color1);
+  overflow-x: hidden;
   overflow-y: auto;
   font-family: 'Poppins', sans-serif;
 }
@@ -304,7 +305,8 @@ span {
   grid-template-columns: 500px 500px;
   gap: 15px;
   align-self: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  padding: 0 50px 0 50px;
 }
 
 u {
